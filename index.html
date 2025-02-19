@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveloke</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <section class="container text-center py-5">
+        <h5 style="color: rgb(129, 138, 158);">TRAVELOKE</h5>
+        <div class="bg-info text-white p-2 rounded">
+            Best Destination Around the World
+        </div>
+        <h1 class="text-secondary mt-3">Explore, Experience, and Embrace Life to the Fullest</h1>
+        <img src="11.jpg" alt="Travel Image" class="img-fluid rounded mt-3">
+        <p class="mt-3 px-3">
+            Life is an adventure filled with precious moments. By exploring new places, experiencing unique moments, and embracing new opportunities, we can live more meaningfully. Every journey is not just about the destination but also about the memories, lessons, and personal growth along the way. So, don’t hesitate to step out of your comfort zone, enjoy every moment, and embrace life to the fullest!
+        </p>
+        <button class="btn btn-primary mt-2">Discover More!</button>
+        
+        <!-- Elemen teks dan tombol baru -->
+        <p id="text-element" class="mt-3">Mulai Membaca</p>
+        <button id="change-text-btn" class="btn btn-success">Ubah Teks</button>
+    </section>
+
+    <script>
+        document.getElementById("change-text-btn").addEventListener("click", function() {
+            document.getElementById("text-element").innerText = "Selamat Datang";
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
